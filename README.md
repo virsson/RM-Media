@@ -7,7 +7,8 @@
 ## Структура
 
 ```
-articles/<slug>/<file>.jpg
+articles/<slug>/<file>.jpg   иллюстрации статей
+brand/<file>.png             логотип и фирменные материалы
 ```
 
 `slug` совпадает со слагом статьи в таблицах `blog` / `blog2`. Один ключ/тема —
@@ -21,6 +22,8 @@ https://cdn.jsdelivr.net/gh/virsson/RM-Media@main/articles/<slug>/<file>.jpg
 
 Для статьи `rm-150-applikator-etiketok` префикс:
 `https://cdn.jsdelivr.net/gh/virsson/RM-Media@main/articles/rm-150-applikator-etiketok/`
+
+Логотип: `https://cdn.jsdelivr.net/gh/virsson/RM-Media@main/brand/Logo-RMgroup.png`
 
 Альтернатива (raw): `https://raw.githubusercontent.com/virsson/RM-Media/main/articles/<slug>/<file>.jpg`.
 
